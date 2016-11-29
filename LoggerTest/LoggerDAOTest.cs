@@ -63,6 +63,7 @@ namespace LoggerTest
         {
             LoggerDAO loggerDAO = LoggerDAO.getInstance();
             Assert.AreEqual(LoggerDAO.getInstace(), loggerDAO);
+
         }
 
         [TestMethod]
