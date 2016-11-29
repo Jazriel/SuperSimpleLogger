@@ -2,6 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Logger;
 
 namespace LoggerTest
 {
@@ -62,7 +63,7 @@ namespace LoggerTest
         public void TestGetInstance()
         {
             LoggerDAO loggerDAO = LoggerDAO.getInstance();
-            Assert.AreEqual(LoggerDAO.getInstace(), loggerDAO);
+            Assert.AreEqual(LoggerDAO.getInstance(), loggerDAO);
 
         }
 

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Logger
 {
-    class LoggerDAO
+    public class LoggerDAO
     {
+        public static LoggerDAO getInstance()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

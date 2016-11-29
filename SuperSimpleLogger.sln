@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleLogger", "SuperSimpleLogger\SuperSimpleLogger.csproj", "{442D5500-BC28-4B63-A0D8-6D042B43F63B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{C5458652-CC82-4202-92EB-A42E39063E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerTest", "LoggerTest\LoggerTest.csproj", "{352612BD-F2D5-4520-96C6-07F1781DB3A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{442D5500-BC28-4B63-A0D8-6D042B43F63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{442D5500-BC28-4B63-A0D8-6D042B43F63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{442D5500-BC28-4B63-A0D8-6D042B43F63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5458652-CC82-4202-92EB-A42E39063E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5458652-CC82-4202-92EB-A42E39063E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5458652-CC82-4202-92EB-A42E39063E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5458652-CC82-4202-92EB-A42E39063E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352612BD-F2D5-4520-96C6-07F1781DB3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352612BD-F2D5-4520-96C6-07F1781DB3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352612BD-F2D5-4520-96C6-07F1781DB3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352612BD-F2D5-4520-96C6-07F1781DB3A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
