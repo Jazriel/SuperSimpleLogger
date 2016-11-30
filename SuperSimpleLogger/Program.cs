@@ -10,6 +10,8 @@ namespace SuperSimpleLogger
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine(DateTime.Now);
+            System.Threading.Thread.Sleep(50000);
         }
     }
 }
